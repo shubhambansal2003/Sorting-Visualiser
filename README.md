@@ -2,11 +2,7 @@
 
 Visualization of different sorting algorithms in C++ with SDL2 Library.
 
-A sorting algorithm is an algorithm that puts the elements of a list in a certain order. While there are a large number of sorting algorithms, in practical implementations a few algorithms predominate.
-In this implementation of sorting visualizer, we'll be looking at some of these sorting algorithms and visually comprehend their working.
-The sorting algorithms covered here are Selection Sort, Insertion Sort, Bubble Sort, Merge Sort, Quick Sort and Heap Sort.
-The list size is fixed to 130 elements. You can randomize the list and select any type of sorting algorithm to call on the list from the given options. Here, all sorting algorithms will sort the elements in ascending order. The sorting time being visualized for an algorithm is not exactly same as their actual time complexities. The relatively faster algorithms like Merge Sort, etc. have been delayed so that they could be properly visualized.
-
+This project visualizes various sorting algorithms, including Selection Sort, Insertion Sort, Bubble Sort, Merge Sort, Quick Sort, and Heap Sort, using the SDL2 library in C++. It handles a fixed list of 130 elements, allowing users to randomize the list and select an algorithm to observe. Although the visualized sorting times do not exactly match the algorithms' true time complexities, delays are introduced for faster algorithms like Merge Sort to enhance visualization clarity.
 # Controls:-
 
 WARNING: Giving repetitive commands may cause latency and the visualizer may behave unexpectedly. Please give a new command only after the current command's execution is done.
